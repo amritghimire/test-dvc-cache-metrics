@@ -1,0 +1,5 @@
+stages:
+  stage1:
+    cmd: "echo 'foo: 3'>metrics.yaml"
+    metrics:
+    - metrics.yaml

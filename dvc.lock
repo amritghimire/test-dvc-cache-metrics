@@ -1,0 +1,8 @@
+schema: '2.0'
+stages:
+  stage1:
+    cmd: "echo 'foo: 3'>metrics.yaml"
+    outs:
+    - path: metrics.yaml
+      md5: dd4c7c443e67d4c0e653a60590a28c85
+      size: 7
